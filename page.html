@@ -23,6 +23,12 @@
 			color: white;
 			background-color: black;
 		}
+
+		@media print {
+			.screenonly {
+				display: none;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -32,6 +38,7 @@
 	<p>
 		CS50 Sandbox
 	</p>
+	<p class='screen-only'>Command-P will make this disappear</p>
 	<button>Click here</button>
 	<ul>
 		<li><a href="#">link 1</a></li>
